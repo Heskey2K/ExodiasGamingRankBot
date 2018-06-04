@@ -204,7 +204,7 @@ async def on_message(message):
             msg = "Your discord name is not a fortnite username! Use the command ```/nick YOUR_FORTNITE_USERNAME``` first!".format(message)
             await client.send_message(message.channel, msg)
         elif ratio == -2:
-            msg = "The fortnite servers are offline. Try again later!".format(message)
+            msg = "It looks like your Discord Name is not the same as your Fortnite Name, please make sure you change your name to your fortnite name by typing /nick YOUR_FORTNITE_NAME".format(message)
             await client.send_message(message.channel, msg)
  
 
